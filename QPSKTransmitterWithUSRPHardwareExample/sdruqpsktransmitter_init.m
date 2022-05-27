@@ -64,4 +64,4 @@ SimParams.USRPFrameLength           = SimParams.Interpolation * SimParams.FrameS
 
 % Experiment Parameters
 SimParams.USRPFrameTime = SimParams.USRPFrameLength/SimParams.USRPFrontEndSampleRate;
-SimParams.StopTime = 1000;
+SimParams.StopTime = 20;
