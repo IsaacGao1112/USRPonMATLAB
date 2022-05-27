@@ -80,7 +80,7 @@ switch platform
         error(message('sdru:examples:UnsupportedPlatform', ...
             platform))
 end
-SimParams.USRPCenterFrequency           = 915e6;
+SimParams.USRPCenterFrequency           = 1.8e9;
 SimParams.USRPGain                      = 30;
 SimParams.USRPFrontEndSampleRate        = SimParams.Rsym * 2; % Nyquist sampling theorem
 SimParams.USRPDecimationFactor          = SimParams.MasterClockRate/SimParams.USRPFrontEndSampleRate;
